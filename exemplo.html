@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="">Número 1</label>
+        <input type="text" id="numero1">
+        
+        <label for="">Número 2</label>
+        <input type="text" id="numero2">
+        
+        <button onclick="somar()">Somar</button>
+    </form>
+
+    <script>
+
+        function somar() {
+            //entrada
+            let n1 = document.getElementById("numero1").value;
+            let n2 = document.getElementById("numero2").value;
+
+            //processamento
+            let resultado = parseInt(n1) + parseInt(n2);
+
+            //saída
+            alert("Resultado da soma é: " + resultado);//imprimir no console
+        }
+
+    </script>
+</body>
+
+</html>
