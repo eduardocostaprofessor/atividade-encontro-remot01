@@ -1,0 +1,11 @@
+instalação do nodejs versão lts https://nodejs.org/
+variáveis
+tipos de dados
+operadores aritmméticos
+operadores lógicos
+estruturas de decisão
+exercícios
+desafio (entregar o link do github)
+
+
+7 + 5 = 12
